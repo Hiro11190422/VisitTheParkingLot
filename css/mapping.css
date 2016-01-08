@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+  font-size:15px;
+  font-family: Helvetica Neue,Helvetica,YuGothic,Yu Gothic,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,"ＭＳＰゴシック",sans-serif
+}
+
+/* 一括で全ての要素の余白をゼロに指定 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*フォントについて*/
+
+a:link {
+  font-size:14px;
+  color: #888;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #888;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BBB;
+  text-decoration: none;
+}
+
+#infowindow{
+  font-style: 'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro;
+}
+
+/* ---------------------------------------- レイアウトに関する指定 */
+
+
+#wrapper {
+  /*text-align: left;*/
+  margin: 0 auto;
+  hight: 100%;
+  width: 100%;
+}
+
+#map {
+border: 3px #000000 solid;
+position: relative;
+padding-bottom: 50%;
+padding-top: 30px;
+margin: 0 auto;
+width: 100%;
+height: 90%;
+overflow: hidden;
+}
+ 
+#map iframe,
+#map object,
+#map embed {
+position: absolute;
+top: 0px;
+left: 0;
+width: 100%;
+height: 90%;
+}
+
+}
+
+
+
+/*------------------------トップへ戻る*/
+
+#back {
+  text-align: right;
+  margin: 0 auto;
+  hight: 100%;
+  width: 75%;
+}

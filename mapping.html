@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visit the Pariking Lot Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/mapping.css">
+
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.csv.js"></script>
+    <script type="text/javascript" src="./js/mapping.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  </head>
+  <body onLoad="drop()">
+    <div id="wrapper">
+      <div id="map"></div>
+      <script type="text/javascript">start_func();</script>
+      <div id="back">
+        <a href="http://www.oi-river.com">トップページに戻る</a>
+      </div>
+    </div>
+    
+    <ul id="visitlist" style="list-style:none;"></ul>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcYcRKOjuwhcXW0nVFypyUT_QWqCnOkuY&signed_in=true&callback=initMap"></script>
+    
+    
+  </body>
+</html>
