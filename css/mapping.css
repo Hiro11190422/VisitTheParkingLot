@@ -47,10 +47,9 @@ a:hover {
 #map {
 border: 3px #000000 solid;
 position: relative;
-padding-bottom: 50%;
-padding-top: 30px;
+padding-bottom: 90%;
+padding-top: 10px;
 margin: 0 auto;
-width: 100%;
 height: 90%;
 overflow: hidden;
 }
@@ -60,13 +59,9 @@ overflow: hidden;
 #map embed {
 position: absolute;
 top: 0px;
-left: 0;
-width: 100%;
+//left: 0;
 height: 90%;
 }
-
-}
-
 
 
 /*------------------------トップへ戻る*/
@@ -74,6 +69,5 @@ height: 90%;
 #back {
   text-align: right;
   margin: 0 auto;
-  hight: 100%;
-  width: 75%;
+  hight: 5%;
 }
