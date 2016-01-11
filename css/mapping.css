@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+html{
+  hight: 100%;
+}
+
 body{
+  hight: 100%;
   font-size:15px;
   font-family: Helvetica Neue,Helvetica,YuGothic,Yu Gothic,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,"ＭＳＰゴシック",sans-serif
 }
@@ -47,10 +52,11 @@ a:hover {
 #map {
 border: 3px #000000 solid;
 position: relative;
-padding-bottom: 90%;
+padding-bottom: 100%;
 padding-top: 10px;
 margin: 0 auto;
-height: 90%;
+hight: 90%;
+width: 99%;
 overflow: hidden;
 }
  
@@ -59,8 +65,9 @@ overflow: hidden;
 #map embed {
 position: absolute;
 top: 0px;
-//left: 0;
-height: 90%;
+left: 0;
+hight: 90% !important;
+width: 100% !important;
 }
 
 
@@ -70,4 +77,5 @@ height: 90%;
   text-align: right;
   margin: 0 auto;
   hight: 5%;
+  width: 99%;
 }
